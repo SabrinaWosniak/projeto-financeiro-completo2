@@ -1,5 +1,5 @@
-from financeiro.conta import Conta
-from financeiro.estrategias.juros import JurosSimples
+from financeiro.dominio.conta import Conta
+from financeiro.dominio.estrategias.juros import JurosSimples
 
 
 class TestContaJuros:

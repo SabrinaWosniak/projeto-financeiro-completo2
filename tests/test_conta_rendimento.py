@@ -1,7 +1,7 @@
 import pytest
 
-from financeiro.conta import Conta
-from financeiro.estrategias.rendimento import RendimentoFixo
+from financeiro.dominio.conta import Conta
+from financeiro.dominio.estrategias.rendimento import RendimentoFixo
 
 
 class TestContaRendimento:

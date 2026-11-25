@@ -2,9 +2,9 @@ from datetime import date
 
 import pytest
 
-from financeiro.categoria import Categoria
-from financeiro.conciliacao import Conciliacao
-from financeiro.lancamento import Lancamento
+from financeiro.dominio.categoria import Categoria
+from financeiro.dominio.conciliacao import Conciliacao
+from financeiro.dominio.lancamento import Lancamento
 
 
 class TestConciliacao:

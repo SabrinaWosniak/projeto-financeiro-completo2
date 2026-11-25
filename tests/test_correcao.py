@@ -1,6 +1,6 @@
 import pytest
 
-from financeiro.estrategias.correcao import (
+from financeiro.dominio.estrategias.correcao import (
     EstrategiaCorrecao,
     CorrecaoPercentual,
     CorrecaoFixa,

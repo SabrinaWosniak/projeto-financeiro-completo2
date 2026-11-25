@@ -1,6 +1,6 @@
 import pytest
 
-from financeiro.estrategias.rendimento import (
+from financeiro.dominio.estrategias.rendimento import (
     EstrategiaRendimento,
     RendimentoFixo,
     RendimentoPercentual,

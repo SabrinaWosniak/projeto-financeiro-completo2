@@ -1,5 +1,5 @@
-from financeiro.conta import Conta
-from financeiro.estrategias.correcao import CorrecaoPercentual
+from financeiro.dominio.conta import Conta
+from financeiro.dominio.estrategias.correcao import CorrecaoPercentual
 
 
 class TestContaCorrecao:

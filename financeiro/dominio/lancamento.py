@@ -1,4 +1,5 @@
 from datetime import date
+from uuid import uuid4
 
 
 class Lancamento:
@@ -9,7 +10,9 @@ class Lancamento:
         valor: float,
         data: date,
         categoria,
-        tipo: str
+        tipo: str,
+        conta_id: str | None = None,
+        id: str | None = None,
     ) -> None:
 
         if not descricao:
@@ -21,11 +24,21 @@ class Lancamento:
         if tipo not in ["debito", "credito"]:
             raise ValueError("Tipo deve ser 'debito' ou 'credito'")
 
+        self._id = id or uuid4().hex
+        self._conta_id = conta_id
         self._descricao = descricao
         self._valor = valor
         self._data = data
         self._categoria = categoria
         self._tipo = tipo
+
+    @property
+    def id(self) -> str:
+        return self._id
+
+    @property
+    def conta_id(self) -> str | None:
+        return self._conta_id
 
     @property
     def descricao(self) -> str:

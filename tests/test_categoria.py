@@ -1,6 +1,6 @@
 import pytest
 
-from financeiro.categoria import Categoria
+from financeiro.dominio.categoria import Categoria
 
 
 class TestCategoria:

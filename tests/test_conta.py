@@ -1,6 +1,6 @@
 import pytest
 
-from financeiro.conta import Conta
+from financeiro.dominio.conta import Conta
 
 
 class TestConta:

@@ -1,9 +1,9 @@
 from datetime import date
 
-from financeiro.categoria import Categoria
-from financeiro.extrato import Extrato
-from financeiro.fechamento import Fechamento
-from financeiro.lancamento import Lancamento
+from financeiro.dominio.categoria import Categoria
+from financeiro.dominio.extrato import Extrato
+from financeiro.dominio.fechamento import Fechamento
+from financeiro.dominio.lancamento import Lancamento
 
 
 class TestExtrato:

@@ -1,6 +1,6 @@
 import pytest
 
-from financeiro.estrategias.juros import (
+from financeiro.dominio.estrategias.juros import (
     EstrategiaJuros,
     JurosSimples,
     JurosCompostos,
